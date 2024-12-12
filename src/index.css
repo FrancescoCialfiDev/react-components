@@ -10,21 +10,27 @@ body{
 
 /* HEADER  */
 header{
-    background-color: rgb(219, 219, 219);
+    background-color: rgb(255, 255, 255);
     height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
+    -webkit-box-shadow: inset 3px 17px 42px -35px rgba(0,187,255,1);
+-moz-box-shadow: inset 3px 17px 42px -35px rgba(0,187,255,1);
+box-shadow: inset 3px 17px 42px -35px rgba(0,187,255,1);
 }
 
 /* MAIN */
 main{
-    background-color: rgb(219, 219, 219);
+    background-color: rgb(255, 255, 255);
     height: calc(100vh - 180px);
+    -webkit-box-shadow: inset 3px -47px 42px -35px rgba(0,187,255,1);
+-moz-box-shadow: inset 3px -47px 42px -35px rgba(0,187,255,1);
+box-shadow: inset 3px -47px 42px -35px rgba(0,187,255,1);
 }
 .containerCard{
     width: calc(80% / 5);
-    box-shadow: 5px 10px 8px #888888;
+    box-shadow: 5px 10px 8px #414141;
 }
 .stile{
     border-radius: 0px 0px 10px 10px;
@@ -38,7 +44,7 @@ img{
     object-fit: cover;
     object-position: -300px  ;
 }
-p{
+main p{
     height: 80px;
 }
 
@@ -48,7 +54,7 @@ p{
 footer{
     height: 100px;
     color: white;
-    background-color: rgb(61, 61, 61);
+    background-color: rgb(39, 39, 39);
 }
 footer p{
     margin: 0 ;
