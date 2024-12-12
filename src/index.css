@@ -23,14 +23,14 @@ main{
     height: calc(100vh - 180px);
 }
 .containerCard{
-    width: 25%;
-    height: 100%;
+    width: calc(80% / 5);
     box-shadow: 5px 10px 8px #888888;
 }
 img{
     width: 600px;
     height: 400px;
     object-fit: cover;
+    object-position: right ;
 }
 
 
