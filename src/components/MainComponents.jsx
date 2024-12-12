@@ -1,10 +1,10 @@
-import posts from "../data/post"
 
 
-function Main() {
 
-    const newArray = [...posts]
-    const card = newArray.map((element) => {
+function Main({ newArray }) {
+
+    const copyArray = [...newArray]
+    const card = copyArray.map((element) => {
         return (
             <div key={element.length} className="containerCard border rounded-4  bg-white mx-3">
                 <img src={element.src} className="card-img-top rounded-top-4" alt="..." />
