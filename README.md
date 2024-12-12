@@ -3,8 +3,10 @@
 ```bash
 # Use the command below to start project:
 npm create vite@latest 
+
 # If you created the project path first, when the terminal asks you if you want to give it a name, write a period (.) to set the project's default name to the one initialized at the beginning
 name project: .
+
 # Otherwise, if you don't give the project a name at the beginning, when the terminal asks you to give the project a name, enter it.
 name project: react-components
 
