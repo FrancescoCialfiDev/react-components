@@ -26,11 +26,20 @@ main{
     width: calc(80% / 5);
     box-shadow: 5px 10px 8px #888888;
 }
+.stile{
+    border-radius: 0px 0px 10px 10px;
+    -webkit-box-shadow: inset 0px 0px 45px -18px rgba(0,196,255,1);
+-moz-box-shadow: inset 0px 0px 45px -18px rgba(0,196,255,1);
+box-shadow: inset 0px 0px 45px -18px rgba(0,196,255,1);
+}
 img{
     width: 600px;
     height: 400px;
     object-fit: cover;
     object-position: -300px  ;
+}
+p{
+    height: 80px;
 }
 
 
