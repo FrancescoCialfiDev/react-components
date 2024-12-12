@@ -9,9 +9,7 @@ name project: .
 name project: react-components
 
 # Select the libraries to use and the programmation languages
-# Libraries:
 React
-# Programmation language:
 javascript
 
 # Install the dependencies with cmd Line
