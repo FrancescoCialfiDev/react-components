@@ -10,6 +10,7 @@ body{
 
 /* HEADER  */
 header{
+    background-color: rgb(219, 219, 219);
     height: 80px;
     display: flex;
     align-items: center;
@@ -18,19 +19,20 @@ header{
 
 /* MAIN */
 main{
+    background-color: rgb(219, 219, 219);
     height: calc(100vh - 180px);
 }
-
 .containerCard{
     width: 25%;
     height: 100%;
+    box-shadow: 5px 10px 8px #888888;
 }
-
 img{
     width: 600px;
     height: 400px;
     object-fit: cover;
 }
+
 
 
 /* FOOTER STYLE */
